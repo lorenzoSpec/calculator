@@ -1,7 +1,7 @@
 const Digit = (props) => {
   return ( 
     <div id={props.id} className="digits">
-      {props.digit}
+      <p>{props.digit}</p>
     </div>
    );
 }
