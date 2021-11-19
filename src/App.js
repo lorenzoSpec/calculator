@@ -1,23 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import Digit from './components/digits';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React Here BOY
-        </a>
-      </header>
+    <div id="calculator">
+      <Digit digit={"0"} id={"zero"} />
+      <Digit digit={"1"} id={"one"} />
+      <Digit digit={"2"} id={"two"} />
+      <Digit digit={"3"} id={"three"} />
+      <Digit digit={"4"} id={"four"} />
+      <Digit digit={"5"} id={"five"} />
+      <Digit digit={"6"} id={"six"} />
+      <Digit digit={"7"} id={"seven"} />
+      <Digit digit={"8"} id={"eight"} />
     </div>
   );
 }
